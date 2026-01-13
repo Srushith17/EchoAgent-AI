@@ -1,9 +1,9 @@
 {
-    "base_url": "https://api.openai.com/v1",
+    "base_url": "https://api.groq.com/openai/v1",
     "api_key": "${env:OPENAI_API_KEY}",
     "frequency_penalty": 0.9,
-    "model": "${env:OPENAI_MODEL}",
+    "model": "llama3-70b-8192",
     "max_tokens": 512,
     "prompt": "",
-    "proxy_url": "${env:OPENAI_PROXY_URL|}"
+    "proxy_url": ""
 }

@@ -1,0 +1,6 @@
+ten-agent
+python-dotenv
+openai
+groq
+agora-python-sdk  # Or the specific Agora library you are using
+asyncio
